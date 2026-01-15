@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "inventory": "Inventar",
+    "howItWorks": "Cum Funcționează",
+    "calculator": "Calculator",
+    "blog": "Blog",
+    "about": "Despre",
+    "contact": "Contact",
+    "login": "Autentificare",
+    "register": "Înregistrare"
+  },
+  "hero": {
+    "title": "Poarta Ta către Vehicule Premium din Salvări",
+    "subtitle": "Accesează mii de vehicule salvate și cu titlu curat din licitații din întreaga lume. Licitează, câștigă și livrează global.",
+    "cta": "Începe Licitarea",
+    "secondary": "Vezi Inventarul",
+    "stats": {
+      "vehicles": "Vehicule Active",
+      "countries": "Țări Deservite",
+      "saved": "Economii Medii"
+    }
+  },
+  "featured": {
+    "title": "Licitații Recomandate",
+    "subtitle": "Nu rata aceste oferte care se încheie curând",
+    "viewAll": "Vezi Toate"
+  },
+  "howItWorks": {
+    "title": "Cum Funcționează",
+    "subtitle": "Proces simplu în 3 pași pentru a-ți obține vehiculul",
+    "step1": {
+      "title": "Răsfoiește și Licitează",
+      "description": "Explorează inventarul nostru vast și plasează licitații pentru vehiculele dorite"
+    },
+    "step2": {
+      "title": "Câștigă și Plătește",
+      "description": "După ce câștigi, finalizează plata în siguranță prin platforma noastră"
+    },
+    "step3": {
+      "title": "Livrare și Recepție",
+      "description": "Ne ocupăm de livrarea mondială direct la ușa ta"
+    }
+  },
+  "cta": {
+    "title": "Pregătit să Găsești Următorul Tău Vehicul?",
+    "subtitle": "Alătură-te miilor de cumpărători care economisesc la vehicule de calitate",
+    "button": "Creează Cont Gratuit"
+  },
+  "footer": {
+    "company": "Companie",
+    "services": "Servicii",
+    "resources": "Resurse",
+    "legal": "Legal",
+    "about": "Despre Noi",
+    "careers": "Cariere",
+    "press": "Presă",
+    "auction": "Servicii Licitații",
+    "shipping": "Transport",
+    "financing": "Finanțare",
+    "faq": "Întrebări Frecvente",
+    "support": "Suport",
+    "pricing": "Prețuri",
+    "privacy": "Politica de Confidențialitate",
+    "terms": "Termeni și Condiții",
+    "cookies": "Politica Cookie",
+    "newsletter": "Abonează-te la newsletter",
+    "emailPlaceholder": "Introdu email-ul",
+    "subscribe": "Abonează-te",
+    "rights": "Toate drepturile rezervate"
+  },
+  "inventory": {
+    "title": "Inventar Vehicule",
+    "subtitle": "Răsfoiește selecția completă de vehicule din licitații",
+    "filters": "Filtre",
+    "make": "Marcă",
+    "model": "Model",
+    "year": "An",
+    "damage": "Tip Daună",
+    "sort": "Sortează După",
+    "priceAsc": "Preț: Mic la Mare",
+    "priceDesc": "Preț: Mare la Mic",
+    "endingSoon": "Se Încheie Curând",
+    "newest": "Cele Mai Noi",
+    "clearFilters": "Șterge Filtrele",
+    "results": "vehicule găsite",
+    "noCars": "Niciun vehicul nu corespunde criteriilor"
+  },
+  "vehicle": {
+    "currentBid": "Licitație Curentă",
+    "buyNow": "Cumpără Acum",
+    "placeBid": "Plasează Licitație",
+    "watchlist": "Adaugă la Favorite",
+    "timeLeft": "Timp Rămas",
+    "bids": "licitații",
+    "specs": "Specificații",
+    "engine": "Motor",
+    "mileage": "Kilometraj",
+    "location": "Locație",
+    "vin": "VIN",
+    "damage": "Daună",
+    "gallery": "Galerie Foto"
+  },
+  "calculator": {
+    "title": "Calculator Costuri",
+    "subtitle": "Estimează costul total al achiziției",
+    "vehiclePrice": "Preț Vehicul",
+    "auctionFees": "Taxe Licitație",
+    "shipping": "Cost Transport",
+    "taxes": "Taxe Import",
+    "total": "Total Estimat",
+    "calculate": "Calculează"
+  },
+  "common": {
+    "days": "zile",
+    "hours": "ore",
+    "minutes": "min",
+    "seconds": "sec"
+  }
+}

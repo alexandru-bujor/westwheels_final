@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "inventory": "Inventar",
+    "howItWorks": "So Funktioniert's",
+    "calculator": "Rechner",
+    "blog": "Blog",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "register": "Registrieren"
+  },
+  "hero": {
+    "title": "Ihr Tor zu Premium-Bergungsfahrzeugen",
+    "subtitle": "Zugang zu tausenden Bergungs- und Reinschrift-Fahrzeugen aus Auktionen weltweit. Bieten, gewinnen und global versenden.",
+    "cta": "Jetzt Bieten",
+    "secondary": "Inventar Ansehen",
+    "stats": {
+      "vehicles": "Aktive Fahrzeuge",
+      "countries": "Bediente Länder",
+      "saved": "Durchschnittliche Ersparnis"
+    }
+  },
+  "featured": {
+    "title": "Empfohlene Auktionen",
+    "subtitle": "Verpassen Sie nicht diese bald endenden Angebote",
+    "viewAll": "Alle Ansehen"
+  },
+  "howItWorks": {
+    "title": "So Funktioniert's",
+    "subtitle": "Einfacher 3-Schritte-Prozess zu Ihrem Fahrzeug",
+    "step1": {
+      "title": "Durchsuchen & Bieten",
+      "description": "Erkunden Sie unser umfangreiches Inventar und geben Sie Gebote auf Ihre Lieblingsfahrzeuge ab"
+    },
+    "step2": {
+      "title": "Gewinnen & Bezahlen",
+      "description": "Nach dem Gewinn schließen Sie die Zahlung sicher über unsere Plattform ab"
+    },
+    "step3": {
+      "title": "Versand & Empfang",
+      "description": "Wir kümmern uns um den weltweiten Versand direkt zu Ihrer Haustür"
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihr Nächstes Fahrzeug zu Finden?",
+    "subtitle": "Schließen Sie sich tausenden Käufern an, die bei Qualitätsfahrzeugen sparen",
+    "button": "Kostenloses Konto Erstellen"
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "services": "Dienstleistungen",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "about": "Über Uns",
+    "careers": "Karriere",
+    "press": "Presse",
+    "auction": "Auktionsdienste",
+    "shipping": "Versand",
+    "financing": "Finanzierung",
+    "faq": "FAQ",
+    "support": "Support",
+    "pricing": "Preise",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "cookies": "Cookie-Richtlinie",
+    "newsletter": "Newsletter abonnieren",
+    "emailPlaceholder": "E-Mail eingeben",
+    "subscribe": "Abonnieren",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "inventory": {
+    "title": "Fahrzeug Inventar",
+    "subtitle": "Durchsuchen Sie unsere komplette Auswahl an Auktionsfahrzeugen",
+    "filters": "Filter",
+    "make": "Marke",
+    "model": "Modell",
+    "year": "Jahr",
+    "damage": "Schadensart",
+    "sort": "Sortieren Nach",
+    "priceAsc": "Preis: Niedrig bis Hoch",
+    "priceDesc": "Preis: Hoch bis Niedrig",
+    "endingSoon": "Bald Endend",
+    "newest": "Neueste Zuerst",
+    "clearFilters": "Filter Löschen",
+    "results": "Fahrzeuge gefunden",
+    "noCars": "Keine Fahrzeuge entsprechen Ihren Kriterien"
+  },
+  "vehicle": {
+    "currentBid": "Aktuelles Gebot",
+    "buyNow": "Sofort Kaufen",
+    "placeBid": "Gebot Abgeben",
+    "watchlist": "Zur Merkliste",
+    "timeLeft": "Zeit Übrig",
+    "bids": "Gebote",
+    "specs": "Spezifikationen",
+    "engine": "Motor",
+    "mileage": "Kilometerstand",
+    "location": "Standort",
+    "vin": "FIN",
+    "damage": "Schaden",
+    "gallery": "Fotogalerie"
+  },
+  "calculator": {
+    "title": "Kostenrechner",
+    "subtitle": "Schätzen Sie Ihre Gesamtkosten",
+    "vehiclePrice": "Fahrzeugpreis",
+    "auctionFees": "Auktionsgebühren",
+    "shipping": "Versandkosten",
+    "taxes": "Einfuhrsteuern",
+    "total": "Geschätzter Gesamtbetrag",
+    "calculate": "Berechnen"
+  },
+  "common": {
+    "days": "Tage",
+    "hours": "Std",
+    "minutes": "Min",
+    "seconds": "Sek"
+  }
+}

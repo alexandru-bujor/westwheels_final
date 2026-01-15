@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Home",
+    "inventory": "Inventory",
+    "howItWorks": "How It Works",
+    "calculator": "Calculator",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register"
+  },
+  "hero": {
+    "title": "Your Gateway to Premium Salvage Vehicles",
+    "subtitle": "Access thousands of salvage and clean-title vehicles from auctions worldwide. Bid, win, and ship globally.",
+    "cta": "Start Bidding",
+    "secondary": "View Inventory",
+    "stats": {
+      "vehicles": "Active Vehicles",
+      "countries": "Countries Served",
+      "saved": "Average Savings"
+    }
+  },
+  "featured": {
+    "title": "Featured Auctions",
+    "subtitle": "Don't miss these ending soon",
+    "viewAll": "View All"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Simple 3-step process to get your vehicle",
+    "step1": {
+      "title": "Browse & Bid",
+      "description": "Explore our vast inventory and place your bids on vehicles you love"
+    },
+    "step2": {
+      "title": "Win & Pay",
+      "description": "Once you win, complete payment securely through our platform"
+    },
+    "step3": {
+      "title": "Ship & Receive",
+      "description": "We handle worldwide shipping right to your doorstep"
+    }
+  },
+  "cta": {
+    "title": "Ready to Find Your Next Vehicle?",
+    "subtitle": "Join thousands of buyers saving big on quality vehicles",
+    "button": "Create Free Account"
+  },
+  "footer": {
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "legal": "Legal",
+    "about": "About Us",
+    "careers": "Careers",
+    "press": "Press",
+    "auction": "Auction Services",
+    "shipping": "Shipping",
+    "financing": "Financing",
+    "faq": "FAQ",
+    "support": "Support",
+    "pricing": "Pricing",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "newsletter": "Subscribe to our newsletter",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved"
+  },
+  "inventory": {
+    "title": "Vehicle Inventory",
+    "subtitle": "Browse our complete selection of auction vehicles",
+    "filters": "Filters",
+    "make": "Make",
+    "model": "Model",
+    "year": "Year",
+    "damage": "Damage Type",
+    "sort": "Sort By",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "endingSoon": "Ending Soon",
+    "newest": "Newest First",
+    "clearFilters": "Clear Filters",
+    "results": "vehicles found",
+    "noCars": "No vehicles match your criteria"
+  },
+  "vehicle": {
+    "currentBid": "Current Bid",
+    "buyNow": "Buy Now",
+    "placeBid": "Place Bid",
+    "watchlist": "Add to Watchlist",
+    "timeLeft": "Time Left",
+    "bids": "bids",
+    "specs": "Specifications",
+    "engine": "Engine",
+    "mileage": "Mileage",
+    "location": "Location",
+    "vin": "VIN",
+    "damage": "Damage",
+    "gallery": "Photo Gallery"
+  },
+  "calculator": {
+    "title": "Cost Calculator",
+    "subtitle": "Estimate your total purchase cost",
+    "vehiclePrice": "Vehicle Price",
+    "auctionFees": "Auction Fees",
+    "shipping": "Shipping Cost",
+    "taxes": "Import Taxes",
+    "total": "Estimated Total",
+    "calculate": "Calculate"
+  },
+  "common": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "min",
+    "seconds": "sec"
+  }
+}

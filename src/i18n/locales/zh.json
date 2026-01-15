@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "首页",
+    "inventory": "车辆库存",
+    "howItWorks": "运作方式",
+    "calculator": "计算器",
+    "blog": "博客",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "login": "登录",
+    "register": "注册"
+  },
+  "hero": {
+    "title": "您的优质事故车辆入口",
+    "subtitle": "访问来自全球拍卖的数千辆事故车和净标题车辆。竞标、赢得并全球运送。",
+    "cta": "开始竞标",
+    "secondary": "查看库存",
+    "stats": {
+      "vehicles": "活跃车辆",
+      "countries": "服务国家",
+      "saved": "平均节省"
+    }
+  },
+  "featured": {
+    "title": "精选拍卖",
+    "subtitle": "不要错过这些即将结束的机会",
+    "viewAll": "查看全部"
+  },
+  "howItWorks": {
+    "title": "运作方式",
+    "subtitle": "简单的三步流程获取您的车辆",
+    "step1": {
+      "title": "浏览与竞标",
+      "description": "探索我们庞大的库存，为您喜欢的车辆出价"
+    },
+    "step2": {
+      "title": "赢得与支付",
+      "description": "赢得后，通过我们的平台安全完成付款"
+    },
+    "step3": {
+      "title": "运送与接收",
+      "description": "我们处理全球运输，直接送到您家门口"
+    }
+  },
+  "cta": {
+    "title": "准备好找到您的下一辆车了吗？",
+    "subtitle": "加入数千名在优质车辆上节省开支的买家",
+    "button": "创建免费账户"
+  },
+  "footer": {
+    "company": "公司",
+    "services": "服务",
+    "resources": "资源",
+    "legal": "法律",
+    "about": "关于我们",
+    "careers": "招聘",
+    "press": "新闻",
+    "auction": "拍卖服务",
+    "shipping": "运输",
+    "financing": "融资",
+    "faq": "常见问题",
+    "support": "支持",
+    "pricing": "定价",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie政策",
+    "newsletter": "订阅我们的通讯",
+    "emailPlaceholder": "输入您的邮箱",
+    "subscribe": "订阅",
+    "rights": "保留所有权利"
+  },
+  "inventory": {
+    "title": "车辆库存",
+    "subtitle": "浏览我们完整的拍卖车辆选择",
+    "filters": "筛选",
+    "make": "品牌",
+    "model": "型号",
+    "year": "年份",
+    "damage": "损坏类型",
+    "sort": "排序方式",
+    "priceAsc": "价格：从低到高",
+    "priceDesc": "价格：从高到低",
+    "endingSoon": "即将结束",
+    "newest": "最新优先",
+    "clearFilters": "清除筛选",
+    "results": "辆车找到",
+    "noCars": "没有车辆符合您的条件"
+  },
+  "vehicle": {
+    "currentBid": "当前出价",
+    "buyNow": "立即购买",
+    "placeBid": "出价",
+    "watchlist": "添加到收藏",
+    "timeLeft": "剩余时间",
+    "bids": "出价",
+    "specs": "规格",
+    "engine": "发动机",
+    "mileage": "里程",
+    "location": "位置",
+    "vin": "车架号",
+    "damage": "损坏",
+    "gallery": "照片库"
+  },
+  "calculator": {
+    "title": "成本计算器",
+    "subtitle": "估算您的总购买成本",
+    "vehiclePrice": "车辆价格",
+    "auctionFees": "拍卖费用",
+    "shipping": "运输费用",
+    "taxes": "进口税",
+    "total": "估计总额",
+    "calculate": "计算"
+  },
+  "common": {
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒"
+  }
+}

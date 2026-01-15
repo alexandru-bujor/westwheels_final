@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "inventory": "Inventario",
+    "howItWorks": "Cómo Funciona",
+    "calculator": "Calculadora",
+    "blog": "Blog",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse"
+  },
+  "hero": {
+    "title": "Tu Puerta a Vehículos Premium de Salvamento",
+    "subtitle": "Accede a miles de vehículos de salvamento y título limpio de subastas mundiales. Puja, gana y envía globalmente.",
+    "cta": "Comenzar a Pujar",
+    "secondary": "Ver Inventario",
+    "stats": {
+      "vehicles": "Vehículos Activos",
+      "countries": "Países Atendidos",
+      "saved": "Ahorro Promedio"
+    }
+  },
+  "featured": {
+    "title": "Subastas Destacadas",
+    "subtitle": "No te pierdas estas ofertas que terminan pronto",
+    "viewAll": "Ver Todas"
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Proceso simple de 3 pasos para obtener tu vehículo",
+    "step1": {
+      "title": "Explora y Puja",
+      "description": "Explora nuestro amplio inventario y coloca tus pujas en los vehículos que te gustan"
+    },
+    "step2": {
+      "title": "Gana y Paga",
+      "description": "Una vez que ganes, completa el pago de forma segura a través de nuestra plataforma"
+    },
+    "step3": {
+      "title": "Envío y Recepción",
+      "description": "Nos encargamos del envío mundial directamente a tu puerta"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Encontrar tu Próximo Vehículo?",
+    "subtitle": "Únete a miles de compradores que ahorran en vehículos de calidad",
+    "button": "Crear Cuenta Gratis"
+  },
+  "footer": {
+    "company": "Empresa",
+    "services": "Servicios",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "about": "Sobre Nosotros",
+    "careers": "Carreras",
+    "press": "Prensa",
+    "auction": "Servicios de Subasta",
+    "shipping": "Envío",
+    "financing": "Financiamiento",
+    "faq": "Preguntas Frecuentes",
+    "support": "Soporte",
+    "pricing": "Precios",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies",
+    "newsletter": "Suscríbete a nuestro boletín",
+    "emailPlaceholder": "Ingresa tu email",
+    "subscribe": "Suscribirse",
+    "rights": "Todos los derechos reservados"
+  },
+  "inventory": {
+    "title": "Inventario de Vehículos",
+    "subtitle": "Explora nuestra selección completa de vehículos de subasta",
+    "filters": "Filtros",
+    "make": "Marca",
+    "model": "Modelo",
+    "year": "Año",
+    "damage": "Tipo de Daño",
+    "sort": "Ordenar Por",
+    "priceAsc": "Precio: Menor a Mayor",
+    "priceDesc": "Precio: Mayor a Menor",
+    "endingSoon": "Terminando Pronto",
+    "newest": "Más Nuevos",
+    "clearFilters": "Limpiar Filtros",
+    "results": "vehículos encontrados",
+    "noCars": "Ningún vehículo coincide con tus criterios"
+  },
+  "vehicle": {
+    "currentBid": "Puja Actual",
+    "buyNow": "Comprar Ahora",
+    "placeBid": "Colocar Puja",
+    "watchlist": "Añadir a Favoritos",
+    "timeLeft": "Tiempo Restante",
+    "bids": "pujas",
+    "specs": "Especificaciones",
+    "engine": "Motor",
+    "mileage": "Kilometraje",
+    "location": "Ubicación",
+    "vin": "VIN",
+    "damage": "Daño",
+    "gallery": "Galería de Fotos"
+  },
+  "calculator": {
+    "title": "Calculadora de Costos",
+    "subtitle": "Estima el costo total de tu compra",
+    "vehiclePrice": "Precio del Vehículo",
+    "auctionFees": "Tarifas de Subasta",
+    "shipping": "Costo de Envío",
+    "taxes": "Impuestos de Importación",
+    "total": "Total Estimado",
+    "calculate": "Calcular"
+  },
+  "common": {
+    "days": "días",
+    "hours": "horas",
+    "minutes": "min",
+    "seconds": "seg"
+  }
+}
