@@ -272,8 +272,8 @@ const VehicleDetail = () => {
             className="bg-card rounded-lg border border-border p-6 mb-8 space-y-4"
           >
             {/* Top Row: Breadcrumb, Title, Views */}
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2 text-sm">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-0">
+              <div className="flex items-center gap-1 md:gap-2 text-xs md:text-sm flex-wrap">
                 <Link to="/" className="font-semibold text-primary hover:underline">WestWheels</Link>
                 <span className="text-muted-foreground">/</span>
                 <span className="text-muted-foreground">{vehicleType}</span>
@@ -282,13 +282,13 @@ const VehicleDetail = () => {
                 <span className="text-muted-foreground">/</span>
                 <span className="text-muted-foreground">{car.model}</span>
                 <span className="text-muted-foreground">/</span>
-                <Link to="#" className="text-primary hover:underline">
+                <Link to="#" className="text-primary hover:underline truncate max-w-[200px] md:max-w-none">
                   {car.year} {car.make} {car.model} {vin}
                 </Link>
               </div>
-              <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                <Eye className="h-4 w-4" />
-                <span>{viewsCount} people viewed this vehicle</span>
+              <div className="flex items-center gap-1 text-xs md:text-sm text-muted-foreground">
+                <Eye className="h-3 w-3 md:h-4 md:w-4" />
+                <span className="whitespace-nowrap">{viewsCount} people viewed this vehicle</span>
               </div>
             </div>
 
@@ -386,10 +386,10 @@ const VehicleDetail = () => {
             </div>
 
             {/* Bottom Row: Live Auction */}
-            <div className="flex items-center gap-2 pt-4 border-t border-border">
+            <div className="flex items-center gap-2 pt-4 border-t border-border flex-wrap">
               <div className="w-2 h-2 rounded-full bg-primary"></div>
-              <span className="text-sm text-muted-foreground">Live auction</span>
-              <span className="text-sm font-semibold text-foreground">{auctionDate}</span>
+              <span className="text-xs md:text-sm text-muted-foreground">Live auction</span>
+              <span className="text-xs md:text-sm font-semibold text-foreground">{auctionDate}</span>
             </div>
           </motion.div>
 

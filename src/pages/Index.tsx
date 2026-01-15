@@ -105,17 +105,17 @@ const Index = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6, ease: 'easeOut' }}
-            className="grid grid-cols-3 gap-8 mt-16 max-w-2xl mx-auto"
+            className="grid grid-cols-3 gap-4 md:gap-8 mt-8 md:mt-16 max-w-2xl mx-auto"
           >
             {stats.map((stat, index) => {
               const isVehicles = stat.label === t('hero.stats.vehicles');
               const content = (
                 <>
-                  <stat.icon className="h-6 w-6 text-primary mx-auto mb-2" />
-                  <p className="font-display font-bold text-2xl md:text-3xl text-white">
+                  <stat.icon className="h-4 w-4 md:h-6 md:w-6 text-primary mx-auto mb-1 md:mb-2" />
+                  <p className="font-display font-bold text-lg md:text-2xl lg:text-3xl text-white">
                     {stat.value}
                   </p>
-                  <p className="text-sm text-white/70">{stat.label}</p>
+                  <p className="text-xs md:text-sm text-white/70">{stat.label}</p>
                 </>
               );
               
