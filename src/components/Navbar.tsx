@@ -24,15 +24,6 @@ const Navbar = () => {
     return true;
   });
   const [currency, setCurrency] = useState('USD');
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   useEffect(() => {
     if (isDark) {
@@ -66,11 +57,7 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`header_top fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-white/95 dark:bg-background/95 backdrop-blur-md shadow-lg border-b border-border'
-          : 'bg-gray-nav dark:bg-background'
-      }`}
+      className="header_top fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 dark:bg-background/95 backdrop-blur-md shadow-lg border-b border-border"
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
@@ -90,10 +77,8 @@ const Navbar = () => {
               <Link
                 key={link.href}
                 to={link.href}
-                className={`text-sm font-medium transition-colors ${
-                  scrolled
-                    ? `hover:text-primary ${location.pathname === link.href ? 'text-primary' : 'text-foreground/80'}`
-                    : `hover:text-white/80 ${location.pathname === link.href ? 'text-white' : 'text-white/80'}`
+                className={`text-sm font-medium transition-colors hover:text-primary ${
+                  location.pathname === link.href ? 'text-primary' : 'text-foreground/80'
                 }`}
               >
                 {link.label}
@@ -106,17 +91,27 @@ const Navbar = () => {
             {/* Language Selector */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="sm" className={`gap-2 ${!scrolled ? 'text-white hover:text-white/80' : ''}`}>
+                <Button 
+                  variant="ghost" 
+                  size="sm" 
+                  className="gap-2"
+                >
                   <span>{currentLang.flag}</span>
                   <span className="text-xs">{currentLang.code.toUpperCase()}</span>
                   <ChevronDown className="h-3 w-3" />
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="bg-popover border-border">
+              <DropdownMenuContent 
+                align="end" 
+                className="bg-popover border-border z-[100] min-w-[150px]"
+              >
                 {languages.map((lang) => (
                   <DropdownMenuItem
                     key={lang.code}
-                    onClick={() => changeLanguage(lang.code)}
+                    onSelect={(e) => {
+                      e.preventDefault();
+                      changeLanguage(lang.code);
+                    }}
                     className="cursor-pointer"
                   >
                     <span className="mr-2">{lang.flag}</span>
@@ -129,17 +124,27 @@ const Navbar = () => {
             {/* Currency Selector */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="sm" className={`gap-1 ${!scrolled ? 'text-white hover:text-white/80' : ''}`}>
+                <Button 
+                  variant="ghost" 
+                  size="sm" 
+                  className="gap-1"
+                >
                   <span className="text-xs font-medium">{currentCurrency.symbol}</span>
                   <span className="text-xs">{currentCurrency.code}</span>
                   <ChevronDown className="h-3 w-3" />
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="bg-popover border-border">
+              <DropdownMenuContent 
+                align="end" 
+                className="bg-popover border-border z-[100] min-w-[150px]"
+              >
                 {currencies.map((curr) => (
                   <DropdownMenuItem
                     key={curr.code}
-                    onClick={() => setCurrency(curr.code)}
+                    onSelect={(e) => {
+                      e.preventDefault();
+                      setCurrency(curr.code);
+                    }}
                     className="cursor-pointer"
                   >
                     <span className="mr-2 font-medium">{curr.symbol}</span>
@@ -155,7 +160,6 @@ const Navbar = () => {
               size="icon"
               onClick={() => setIsDark(!isDark)}
               aria-label="Toggle theme"
-              className={!scrolled ? 'text-white hover:text-white/80' : ''}
             >
               {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
@@ -164,7 +168,7 @@ const Navbar = () => {
             <Link to="/auth" className="header_btn">
               {t('nav.login')}
             </Link>
-            <Link to="/auth" className="header_btn sign_up">
+            <Link to="/auth?tab=register" className="header_btn sign_up">
               {t('nav.register')}
             </Link>
           </div>
@@ -176,7 +180,6 @@ const Navbar = () => {
               size="icon"
               onClick={() => setIsDark(!isDark)}
               aria-label="Toggle theme"
-              className={!scrolled ? 'text-white hover:text-white/80' : ''}
             >
               {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
@@ -185,7 +188,6 @@ const Navbar = () => {
               size="icon"
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
-              className={!scrolled ? 'text-white hover:text-white/80' : ''}
             >
               {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
@@ -220,16 +222,26 @@ const Navbar = () => {
               <div className="flex gap-2 pt-4 border-t border-border">
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" className="gap-2">
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="gap-2"
+                    >
                       <span>{currentLang.flag}</span>
                       <span>{currentLang.code.toUpperCase()}</span>
                     </Button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent className="bg-popover border-border">
+                  <DropdownMenuContent 
+                    className="bg-popover border-border z-[100] min-w-[150px]"
+                  >
                     {languages.map((lang) => (
                       <DropdownMenuItem
                         key={lang.code}
-                        onClick={() => changeLanguage(lang.code)}
+                        onSelect={(e) => {
+                          e.preventDefault();
+                          changeLanguage(lang.code);
+                        }}
+                        className="cursor-pointer"
                       >
                         <span className="mr-2">{lang.flag}</span>
                         {lang.name}
@@ -239,15 +251,24 @@ const Navbar = () => {
                 </DropdownMenu>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm">
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                    >
                       {currentCurrency.symbol} {currentCurrency.code}
                     </Button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent className="bg-popover border-border">
+                  <DropdownMenuContent 
+                    className="bg-popover border-border z-[100] min-w-[150px]"
+                  >
                     {currencies.map((curr) => (
                       <DropdownMenuItem
                         key={curr.code}
-                        onClick={() => setCurrency(curr.code)}
+                        onSelect={(e) => {
+                          e.preventDefault();
+                          setCurrency(curr.code);
+                        }}
+                        className="cursor-pointer"
                       >
                         <span className="mr-2">{curr.symbol}</span>
                         {curr.name}
@@ -260,7 +281,7 @@ const Navbar = () => {
                 <Link to="/auth" className="header_btn flex-1 justify-center">
                   {t('nav.login')}
                 </Link>
-                <Link to="/auth" className="header_btn sign_up flex-1 justify-center">
+                <Link to="/auth?tab=register" className="header_btn sign_up flex-1 justify-center">
                   {t('nav.register')}
                 </Link>
               </div>

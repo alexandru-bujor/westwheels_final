@@ -21,20 +21,22 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      description: 'Mon-Fri from 8am to 5pm',
+      value: '068503505',
+      description: 'Call us during business hours',
+      link: 'tel:068503505',
     },
     {
       icon: MapPin,
       title: 'Office',
-      value: '123 Auction Street, Miami, FL 33101',
+      value: 'Strada Meșterul Manole 5A, Chișinău',
       description: 'Visit our main office',
+      link: 'https://www.google.com/maps/place/West+Wheels+SRL/@47.0262537,28.8918458,17z/data=!4m6!3m5!1s0x40c97d6cd94659c7:0x501355e94de730ef!8m2!3d47.0264596!4d28.8918493!16s%2Fg%2F11jtsjvvpm?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D',
     },
     {
       icon: Clock,
       title: 'Business Hours',
-      value: 'Mon - Fri: 8AM - 8PM EST',
-      description: 'Weekend: 10AM - 4PM EST',
+      value: 'Mon - Sat: 9AM - 7PM',
+      description: 'Sunday: Closed',
     },
   ];
 
@@ -151,26 +153,41 @@ const Contact = () => {
             >
               {/* Contact Cards */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {contactInfo.map((item, index) => (
-                  <div
-                    key={index}
-                    className="bg-card rounded-xl p-5 border border-border hover:border-primary/50 transition-colors"
-                  >
-                    <div className="w-10 h-10 rounded-lg bg-gradient-brand flex items-center justify-center mb-3">
-                      <item.icon className="h-5 w-5 text-primary-foreground" />
+                {contactInfo.map((item, index) => {
+                  const content = (
+                    <div className="bg-card rounded-xl p-5 border border-border hover:border-primary/50 transition-colors">
+                      <div className="w-10 h-10 rounded-lg bg-gradient-brand flex items-center justify-center mb-3">
+                        <item.icon className="h-5 w-5 text-primary-foreground" />
+                      </div>
+                      <h3 className="font-semibold text-foreground mb-1">{item.title}</h3>
+                      <p className="text-sm text-primary font-medium mb-1">{item.value}</p>
+                      <p className="text-xs text-muted-foreground">{item.description}</p>
                     </div>
-                    <h3 className="font-semibold text-foreground mb-1">{item.title}</h3>
-                    <p className="text-sm text-primary font-medium mb-1">{item.value}</p>
-                    <p className="text-xs text-muted-foreground">{item.description}</p>
-                  </div>
-                ))}
+                  );
+                  
+                  if (item.link) {
+                    return (
+                      <a
+                        key={index}
+                        href={item.link}
+                        target={item.link.startsWith('http') ? '_blank' : undefined}
+                        rel={item.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                        className="block"
+                      >
+                        {content}
+                      </a>
+                    );
+                  }
+                  
+                  return <div key={index}>{content}</div>;
+                })}
               </div>
 
               {/* Map */}
               <div className="bg-card rounded-2xl overflow-hidden border border-border h-80">
                 <iframe
                   title="Office Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.8898983373796!2d-80.19179308497873!3d25.77456798362667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823f7a3003%3A0x5f298b1e8b39c8c0!2sMiami%2C%20FL%2033101!5e0!3m2!1sen!2sus!4v1635959657748!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/place/West+Wheels+SRL/@47.0262537,28.8918458,17z/data=!4m6!3m5!1s0x40c97d6cd94659c7:0x501355e94de730ef!8m2!3d47.0264596!4d28.8918493!16s%2Fg%2F11jtsjvvpm?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

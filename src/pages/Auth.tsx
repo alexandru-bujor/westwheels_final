@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Mail, Lock, Eye, EyeOff, ArrowRight, Chrome } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -7,11 +8,20 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Separator } from '@/components/ui/separator';
 import Navbar from '@/components/Navbar';
+import logo from '@/assets/logo.png';
 
 const Auth = () => {
   const { t } = useTranslation();
+  const [searchParams] = useSearchParams();
   const [isLogin, setIsLogin] = useState(true);
   const [showPassword, setShowPassword] = useState(false);
+
+  useEffect(() => {
+    const tab = searchParams.get('tab');
+    if (tab === 'register') {
+      setIsLogin(false);
+    }
+  }, [searchParams]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -27,8 +37,12 @@ const Auth = () => {
           <div className="bg-card rounded-2xl p-8 border border-border shadow-elevated">
             {/* Header */}
             <div className="text-center mb-8">
-              <div className="w-12 h-12 rounded-xl bg-gradient-brand flex items-center justify-center mx-auto mb-4">
-                <span className="text-primary-foreground font-display font-bold text-2xl">B</span>
+              <div className="flex items-center justify-center mb-4">
+                <img 
+                  src={logo} 
+                  alt="WestWheels" 
+                  className="h-12 w-auto"
+                />
               </div>
               <h1 className="font-display font-bold text-2xl text-foreground mb-2">
                 {isLogin ? 'Welcome Back' : 'Create Account'}
