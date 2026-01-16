@@ -43,6 +43,8 @@ const Navbar = () => {
   const navLinks = [
     { href: '/', label: t('nav.home') },
     { href: '/inventory', label: t('nav.inventory') },
+    { href: '/in-transit', label: t('nav.inTransit') },
+    { href: '/delivery-times', label: t('nav.deliveryTimes') },
     { href: '/how-it-works', label: t('nav.howItWorks') },
     { href: '/calculator', label: t('nav.calculator') },
     { href: '/blog', label: t('nav.blog') },
@@ -166,10 +168,10 @@ const Navbar = () => {
 
             {/* Auth Buttons */}
             <Link to="/auth" className="header_btn">
-              {t('nav.login')}
+                {t('nav.login')}
             </Link>
             <Link to="/auth?tab=register" className="header_btn sign_up">
-              {t('nav.register')}
+                {t('nav.register')}
             </Link>
           </div>
 
@@ -279,10 +281,10 @@ const Navbar = () => {
               </div>
               <div className="flex gap-2 pt-2">
                 <Link to="/auth" className="header_btn flex-1 justify-center">
-                  {t('nav.login')}
+                    {t('nav.login')}
                 </Link>
                 <Link to="/auth?tab=register" className="header_btn sign_up flex-1 justify-center">
-                  {t('nav.register')}
+                    {t('nav.register')}
                 </Link>
               </div>
             </div>

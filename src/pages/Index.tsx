@@ -113,8 +113,8 @@ const Index = () => {
                 <>
                   <stat.icon className="h-4 w-4 md:h-6 md:w-6 text-primary mx-auto mb-1 md:mb-2" />
                   <p className="font-display font-bold text-lg md:text-2xl lg:text-3xl text-white">
-                    {stat.value}
-                  </p>
+                  {stat.value}
+                </p>
                   <p className="text-xs md:text-sm text-white/70">{stat.label}</p>
                 </>
               );
@@ -130,7 +130,7 @@ const Index = () => {
               return (
                 <div key={index} className="text-center">
                   {content}
-                </div>
+              </div>
               );
             })}
           </motion.div>

@@ -3,9 +3,7 @@ import { initReactI18next } from 'react-i18next';
 
 import en from './locales/en.json';
 import ro from './locales/ro.json';
-import de from './locales/de.json';
-import es from './locales/es.json';
-import zh from './locales/zh.json';
+import ru from './locales/ru.json';
 
 const savedLanguage = localStorage.getItem('language') || 'en';
 
@@ -15,9 +13,7 @@ i18n
     resources: {
       en: { translation: en },
       ro: { translation: ro },
-      de: { translation: de },
-      es: { translation: es },
-      zh: { translation: zh },
+      ru: { translation: ru },
     },
     lng: savedLanguage,
     fallbackLng: 'en',
@@ -31,15 +27,11 @@ export default i18n;
 export const languages = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
   { code: 'ro', name: 'Română', flag: '🇷🇴' },
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'zh', name: '中文', flag: '🇨🇳' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
 ];
 
 export const currencies = [
-  { code: 'USD', symbol: '$', name: 'US Dollar' },
   { code: 'EUR', symbol: '€', name: 'Euro' },
+  { code: 'USD', symbol: '$', name: 'US Dollar' },
   { code: 'GBP', symbol: '£', name: 'British Pound' },
-  { code: 'RON', symbol: 'lei', name: 'Romanian Leu' },
-  { code: 'CNY', symbol: '¥', name: 'Chinese Yuan' },
 ];

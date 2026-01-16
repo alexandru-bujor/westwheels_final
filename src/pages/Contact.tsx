@@ -15,8 +15,16 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'support@westwheels.com',
+      value: 'info@autoamerica.md',
       description: 'Send us an email anytime',
+      link: 'mailto:info@autoamerica.md',
+    },
+    {
+      icon: Mail,
+      title: 'Accounting',
+      value: 'contabil@autoamerica.md',
+      description: 'For accounting inquiries',
+      link: 'mailto:contabil@autoamerica.md',
     },
     {
       icon: Phone,
@@ -156,13 +164,13 @@ const Contact = () => {
                 {contactInfo.map((item, index) => {
                   const content = (
                     <div className="bg-card rounded-xl p-5 border border-border hover:border-primary/50 transition-colors">
-                      <div className="w-10 h-10 rounded-lg bg-gradient-brand flex items-center justify-center mb-3">
-                        <item.icon className="h-5 w-5 text-primary-foreground" />
-                      </div>
-                      <h3 className="font-semibold text-foreground mb-1">{item.title}</h3>
-                      <p className="text-sm text-primary font-medium mb-1">{item.value}</p>
-                      <p className="text-xs text-muted-foreground">{item.description}</p>
+                    <div className="w-10 h-10 rounded-lg bg-gradient-brand flex items-center justify-center mb-3">
+                      <item.icon className="h-5 w-5 text-primary-foreground" />
                     </div>
+                    <h3 className="font-semibold text-foreground mb-1">{item.title}</h3>
+                    <p className="text-sm text-primary font-medium mb-1">{item.value}</p>
+                    <p className="text-xs text-muted-foreground">{item.description}</p>
+                  </div>
                   );
                   
                   if (item.link) {

@@ -140,10 +140,11 @@ const CarCard = ({ car, index = 0 }: CarCardProps) => {
             </div>
 
             <div className="mt-4 flex gap-2">
+
               <Button
                 variant="outline"
                 size="sm"
-                className="flex-1"
+                className="flex-1 addtowatch"
                 onClick={(e) => e.preventDefault()}
               >
                 {t('vehicle.watchlist')}

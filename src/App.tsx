@@ -15,6 +15,10 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Auth from "./pages/Auth";
 import Account from "./pages/Account";
+import FAQ from "./pages/FAQ";
+import InTransit from "./pages/InTransit";
+import InTransitDetail from "./pages/InTransitDetail";
+import DeliveryTimes from "./pages/DeliveryTimes";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +39,10 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/in-transit" element={<InTransit />} />
+          <Route path="/in-transit/:id" element={<InTransitDetail />} />
+          <Route path="/delivery-times" element={<DeliveryTimes />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/account" element={<Account />} />
           <Route path="*" element={<NotFound />} />
