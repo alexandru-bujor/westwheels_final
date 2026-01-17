@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Clock, MapPin, Heart, AlertTriangle } from 'lucide-react';
+import { Clock, MapPin, Heart, AlertTriangle, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import type { Car } from '@/data/cars';
@@ -16,6 +16,9 @@ const CarCard = ({ car, index = 0 }: CarCardProps) => {
   const { t } = useTranslation();
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [isFavorite, setIsFavorite] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
+  const carouselIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const calculateTimeLeft = () => {
@@ -38,6 +41,40 @@ const CarCard = ({ car, index = 0 }: CarCardProps) => {
     return () => clearInterval(timer);
   }, [car.endDate]);
 
+  // Auto-play carousel when not hovering
+  useEffect(() => {
+    if (car.images.length <= 1) return;
+
+    if (!isHovered) {
+      carouselIntervalRef.current = setInterval(() => {
+        setCurrentImageIndex((prev) => (prev + 1) % car.images.length);
+      }, 3000); // Change image every 3 seconds
+    } else {
+      if (carouselIntervalRef.current) {
+        clearInterval(carouselIntervalRef.current);
+        carouselIntervalRef.current = null;
+      }
+    }
+
+    return () => {
+      if (carouselIntervalRef.current) {
+        clearInterval(carouselIntervalRef.current);
+      }
+    };
+  }, [isHovered, car.images.length]);
+
+  const handlePrevImage = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev === 0 ? car.images.length - 1 : prev - 1));
+  };
+
+  const handleNextImage = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev + 1) % car.images.length);
+  };
+
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -59,15 +96,47 @@ const CarCard = ({ car, index = 0 }: CarCardProps) => {
       transition={{ duration: 0.4, delay: index * 0.1, ease: 'easeOut' }}
       className="group"
     >
-      <Link to={`/vehicle/${car.id}`} target="_blank" rel="noopener noreferrer">
+      <Link to={`/vehicle/${car.id}`} rel="noopener noreferrer">
         <div className="bg-card rounded-xl overflow-hidden border border-border shadow-card hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
           {/* Image */}
-          <div className="relative aspect-[16/10] overflow-hidden">
-            <img
-              src={car.images[0]}
+          <div 
+            className="relative aspect-[4/3] overflow-hidden"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            <motion.img
+              key={currentImageIndex}
+              src={car.images[currentImageIndex]}
               alt={car.title}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3 }}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
+            
+            {/* Navigation Arrows - Show on hover */}
+            {car.images.length > 1 && (
+              <>
+                <button
+                  onClick={handlePrevImage}
+                  className={`absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center hover:bg-background transition-all duration-200 z-10 ${
+                    isHovered ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                  }`}
+                  aria-label="Previous image"
+                >
+                  <ChevronLeft className="h-4 w-4" />
+                </button>
+                <button
+                  onClick={handleNextImage}
+                  className={`absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center hover:bg-background transition-all duration-200 z-10 ${
+                    isHovered ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                  }`}
+                  aria-label="Next image"
+                >
+                  <ChevronRight className="h-4 w-4" />
+                </button>
+              </>
+            )}
             
             {/* Overlays */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
@@ -78,7 +147,7 @@ const CarCard = ({ car, index = 0 }: CarCardProps) => {
                 e.preventDefault();
                 setIsFavorite(!isFavorite);
               }}
-              className="absolute top-3 right-3 w-9 h-9 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center hover:bg-background transition-colors"
+              className="absolute top-3 right-3 w-9 h-9 rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center hover:bg-background transition-colors z-10"
               aria-label="Add to favorites"
             >
               <Heart

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Sun, Moon, ChevronDown, User } from 'lucide-react';
@@ -16,6 +16,7 @@ import logo from '@/assets/logo.png';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const location = useLocation();
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
   const [isDark, setIsDark] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -40,16 +41,24 @@ const Navbar = () => {
     localStorage.setItem('language', lang);
   };
 
-  const navLinks = [
+  const mainNavLinks = [
     { href: '/', label: t('nav.home') },
     { href: '/inventory', label: t('nav.inventory') },
     { href: '/in-transit', label: t('nav.inTransit') },
-    { href: '/delivery-times', label: t('nav.deliveryTimes') },
-    { href: '/how-it-works', label: t('nav.howItWorks') },
     { href: '/calculator', label: t('nav.calculator') },
+    { href: '/contact', label: t('nav.contact') },
+  ];
+
+  const infoSubLinks = [
     { href: '/blog', label: t('nav.blog') },
     { href: '/about', label: t('nav.about') },
-    { href: '/contact', label: t('nav.contact') },
+    { href: '/how-it-works', label: t('nav.howItWorks') },
+    { href: '/delivery-times', label: t('nav.deliveryTimes') },
+  ];
+
+  const allNavLinks = [
+    ...mainNavLinks,
+    ...infoSubLinks,
   ];
 
   const currentLang = languages.find(l => l.code === i18n.language) || languages[0];
@@ -75,7 +84,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-6">
-            {navLinks.map((link) => (
+            {mainNavLinks.map((link) => (
               <Link
                 key={link.href}
                 to={link.href}
@@ -86,6 +95,40 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+            
+            {/* Information Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  className={`text-sm font-medium transition-colors hover:text-primary flex items-center gap-1 ${
+                    infoSubLinks.some(link => location.pathname === link.href)
+                      ? 'text-primary'
+                      : 'text-foreground/80'
+                  }`}
+                >
+                  {t('nav.information') || 'Information'}
+                  <ChevronDown className="h-3 w-3" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent 
+                align="start" 
+                className="bg-popover border-border z-[100] min-w-[180px]"
+              >
+                {infoSubLinks.map((link) => (
+                  <DropdownMenuItem
+                    key={link.href}
+                    className={`cursor-pointer ${
+                      location.pathname === link.href ? 'bg-accent' : ''
+                    }`}
+                    onClick={() => {
+                      navigate(link.href);
+                    }}
+                  >
+                    {link.label}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
 
           {/* Desktop Actions */}
@@ -207,7 +250,7 @@ const Navbar = () => {
             className="lg:hidden bg-background border-t border-border"
           >
             <div className="container mx-auto px-4 py-4 space-y-4">
-              {navLinks.map((link) => (
+              {mainNavLinks.map((link) => (
                 <Link
                   key={link.href}
                   to={link.href}
@@ -221,6 +264,27 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
+              
+              {/* Information Section in Mobile */}
+              <div className="pt-2 border-t border-border">
+                <div className="text-xs font-semibold text-muted-foreground uppercase mb-2">
+                  {t('nav.information') || 'Information'}
+                </div>
+                {infoSubLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    to={link.href}
+                    onClick={() => setIsOpen(false)}
+                    className={`block py-2 pl-4 text-sm font-medium transition-colors ${
+                      location.pathname === link.href
+                        ? 'text-primary'
+                        : 'text-foreground/80'
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
               <div className="flex gap-2 pt-4 border-t border-border">
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>

@@ -193,23 +193,24 @@ const Contact = () => {
 
               {/* Map */}
               <div className="bg-card rounded-2xl overflow-hidden border border-border h-80">
-                <iframe
-                  title="Office Location"
-                  src="https://www.google.com/maps/place/West+Wheels+SRL/@47.0262537,28.8918458,17z/data=!4m6!3m5!1s0x40c97d6cd94659c7:0x501355e94de730ef!8m2!3d47.0264596!4d28.8918493!16s%2Fg%2F11jtsjvvpm?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+                  <iframe
+                      title="West Wheels Location"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2719.7015378395286!2d28.889274376674074!3d47.0264632278582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97d6cd94659c7%3A0x501355e94de730ef!2sWest%20Wheels%20SRL!5e0!3m2!1sen!2s!4v1768581124075!5m2!1sen!2s"
+                      width="100%"
+                      height="450"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                  />
+
               </div>
             </motion.div>
           </div>
         </div>
       </section>
 
-      <Footer />
+        <Footer/>
     </div>
   );
 };

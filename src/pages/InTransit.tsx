@@ -15,6 +15,7 @@ import {
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Badge } from '@/components/ui/badge';
+import { getCarImages } from '@/utils/carImages';
 
 interface InTransitCar {
   id: string;
@@ -47,7 +48,7 @@ const inTransitCars: InTransitCar[] = [
     model: 'C-Class',
     year: 2021,
     price: 28500,
-    images: ['https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&h=600&fit=crop'],
+    images: getCarImages('transit-1'),
     engine: '2.0L I4',
     mileage: 32000,
     location: 'Los Angeles, CA',
@@ -68,7 +69,7 @@ const inTransitCars: InTransitCar[] = [
     model: '3 Series',
     year: 2020,
     price: 24500,
-    images: ['https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop'],
+    images: getCarImages('transit-2'),
     engine: '2.0L I4',
     mileage: 45000,
     location: 'Miami, FL',
@@ -89,7 +90,7 @@ const inTransitCars: InTransitCar[] = [
     model: 'A4',
     year: 2022,
     price: 32500,
-    images: ['https://images.unsplash.com/photo-1606664515524-ed2f786a0ad6?w=800&h=600&fit=crop'],
+    images: getCarImages('transit-3'),
     engine: '2.0L I4',
     mileage: 18000,
     location: 'New York, NY',
@@ -110,7 +111,7 @@ const inTransitCars: InTransitCar[] = [
     model: 'Golf',
     year: 2019,
     price: 18500,
-    images: ['https://images.unsplash.com/photo-1606664515524-ed2f786a0ad6?w=800&h=600&fit=crop'],
+    images: getCarImages('transit-4'),
     engine: '1.4L I4',
     mileage: 55000,
     location: 'Chicago, IL',
@@ -131,7 +132,7 @@ const inTransitCars: InTransitCar[] = [
     model: 'Mustang',
     year: 2021,
     price: 38500,
-    images: ['https://images.unsplash.com/photo-1606664515524-ed2f786a0ad6?w=800&h=600&fit=crop'],
+    images: getCarImages('transit-5'),
     engine: '5.0L V8',
     mileage: 25000,
     location: 'Houston, TX',
@@ -152,7 +153,7 @@ const inTransitCars: InTransitCar[] = [
     model: 'Camry',
     year: 2020,
     price: 22500,
-    images: ['https://images.unsplash.com/photo-1606664515524-ed2f786a0ad6?w=800&h=600&fit=crop'],
+    images: getCarImages('transit-6'),
     engine: '2.5L I4',
     mileage: 38000,
     location: 'Seattle, WA',
@@ -359,8 +360,8 @@ const InTransit = () => {
                 >
                   <div className="bg-card rounded-xl overflow-hidden border border-border shadow-card hover:shadow-elevated transition-all duration-300 hover:-translate-y-1">
                     {/* Image - Clickable */}
-                    <Link to={`/in-transit/${car.id}`} target="_blank" rel="noopener noreferrer">
-                      <div className="relative aspect-[16/10] overflow-hidden cursor-pointer">
+                    <Link to={`/in-transit/${car.id}`} rel="noopener noreferrer">
+                      <div className="relative aspect-[4/3] overflow-hidden cursor-pointer">
                         <img
                           src={car.images[0]}
                           alt={car.title}

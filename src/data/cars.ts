@@ -1,3 +1,5 @@
+import { getCarImages } from '@/utils/carImages';
+
 export interface Car {
   id: string;
   title: string;
@@ -37,7 +39,14 @@ export interface Car {
   series?: string;
   interiorColor?: string;
   auction?: string;
+  saleScore?: string;
 }
+
+// Helper function to generate random sale score
+const getRandomSaleScore = (): string => {
+  const score = Math.floor(Math.random() * 41) + 10; // Random between 10-50
+  return `${score}/50`;
+};
 
 export const cars: Car[] = [
   {
@@ -49,16 +58,14 @@ export const cars: Car[] = [
     price: 42500,
     buyNowPrice: 55000,
     damage: "Front End",
-    images: [
-      "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("1"),
     engine: "3.0L Twin-Turbo I6",
     mileage: 12500,
     location: "Los Angeles, CA",
     vin: "WBS43AZ02NCK12345",
     endDate: "2024-02-15T18:00:00Z",
-    bids: 23
+    bids: 23,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "2",
@@ -68,16 +75,14 @@ export const cars: Car[] = [
     year: 2023,
     price: 68900,
     damage: "Minor Dents",
-    images: [
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("2"),
     engine: "4.0L V8 Biturbo",
     mileage: 8200,
     location: "Miami, FL",
     vin: "WDDYJ7JA5NA012345",
     endDate: "2024-02-14T20:00:00Z",
-    bids: 31
+    bids: 31,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "3",
@@ -88,16 +93,14 @@ export const cars: Car[] = [
     price: 125000,
     buyNowPrice: 165000,
     damage: "Clean Title",
-    images: [
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("3"),
     engine: "3.8L Twin-Turbo Flat-6",
     mileage: 15800,
     location: "New York, NY",
     vin: "WP0AD2A91MS234567",
     endDate: "2024-02-16T15:00:00Z",
-    bids: 45
+    bids: 45,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "4",
@@ -107,16 +110,14 @@ export const cars: Car[] = [
     year: 2020,
     price: 52000,
     damage: "Rear End",
-    images: [
-      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("4"),
     engine: "4.0L TFSI V8",
     mileage: 28500,
     location: "Chicago, IL",
     vin: "WUAPWAF21LN901234",
     endDate: "2024-02-13T22:00:00Z",
-    bids: 18
+    bids: 18,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "5",
@@ -126,16 +127,14 @@ export const cars: Car[] = [
     year: 2023,
     price: 78500,
     damage: "Water Damage",
-    images: [
-      "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1536700503339-1e4b06520771?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("5"),
     engine: "Tri Motor Electric",
     mileage: 5200,
     location: "Seattle, WA",
     vin: "5YJSA1E61PF345678",
     endDate: "2024-02-17T19:00:00Z",
-    bids: 27
+    bids: 27,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "6",
@@ -146,16 +145,14 @@ export const cars: Car[] = [
     price: 185000,
     buyNowPrice: 240000,
     damage: "Side Damage",
-    images: [
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("6"),
     engine: "5.2L V10",
     mileage: 4800,
     location: "Las Vegas, NV",
     vin: "ZHWUF4ZF5NLA56789",
     endDate: "2024-02-18T21:00:00Z",
-    bids: 52
+    bids: 52,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "7",
@@ -165,16 +162,14 @@ export const cars: Car[] = [
     year: 2021,
     price: 48000,
     damage: "Front End",
-    images: [
-      "https://images.unsplash.com/photo-1584345604476-8ec5f452d1f2?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1547744152-14d985cb937f?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("7"),
     engine: "5.2L Supercharged V8",
     mileage: 18900,
     location: "Detroit, MI",
     vin: "1FA6P8SJ5M5901234",
     endDate: "2024-02-14T17:00:00Z",
-    bids: 34
+    bids: 34,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "8",
@@ -184,16 +179,14 @@ export const cars: Car[] = [
     year: 2023,
     price: 92000,
     damage: "Clean Title",
-    images: [
-      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("8"),
     engine: "5.5L Flat-Plane V8",
     mileage: 3200,
     location: "Phoenix, AZ",
     vin: "1G1YY2D45P5123456",
     endDate: "2024-02-19T16:00:00Z",
-    bids: 41
+    bids: 41,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "9",
@@ -204,16 +197,14 @@ export const cars: Car[] = [
     price: 168000,
     buyNowPrice: 220000,
     damage: "Minor Dents",
-    images: [
-      "https://images.unsplash.com/photo-1621135802920-133df287f89c?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("9"),
     engine: "4.0L Twin-Turbo V8",
     mileage: 11200,
     location: "San Francisco, CA",
     vin: "SBM14DCA5LW789012",
     endDate: "2024-02-15T23:00:00Z",
-    bids: 38
+    bids: 38,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "10",
@@ -223,16 +214,14 @@ export const cars: Car[] = [
     year: 2022,
     price: 135000,
     damage: "Mechanical",
-    images: [
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("10"),
     engine: "3.8L Twin-Turbo V6",
     mileage: 9800,
     location: "Houston, TX",
     vin: "JN1TBNT36Z0123456",
     endDate: "2024-02-16T20:00:00Z",
-    bids: 29
+    bids: 29,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "11",
@@ -242,16 +231,14 @@ export const cars: Car[] = [
     year: 2021,
     price: 38500,
     damage: "Side Damage",
-    images: [
-      "https://images.unsplash.com/photo-1612544448445-b8232cff3b6c?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1594502184342-2e12f877aa73?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("11"),
     engine: "6.2L Supercharged HEMI V8",
     mileage: 22400,
     location: "Denver, CO",
     vin: "2C3CDZC97MH234567",
     endDate: "2024-02-13T18:00:00Z",
-    bids: 21
+    bids: 21,
+    saleScore: getRandomSaleScore()
   },
   {
     id: "12",
@@ -262,16 +249,14 @@ export const cars: Car[] = [
     price: 89000,
     buyNowPrice: 115000,
     damage: "Flood Damage",
-    images: [
-      "https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&h=450&fit=crop",
-      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&h=450&fit=crop",
-    ],
+    images: getCarImages("12"),
     engine: "5.0L Supercharged V8",
     mileage: 7600,
     location: "Atlanta, GA",
     vin: "SALWV2SE2PA456789",
     endDate: "2024-02-20T14:00:00Z",
-    bids: 16
+    bids: 16,
+    saleScore: getRandomSaleScore()
   }
 ];
 
