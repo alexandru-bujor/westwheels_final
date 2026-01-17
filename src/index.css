@@ -47,10 +47,10 @@
 @layer base {
   :root {
     /* Swiper Theme Color */
-    --swiper-theme-color: #007aff;
+    --swiper-theme-color: #1e8bd6 !important;
     
     /* Bootstrap-style Color Palette */
-    --blue: #007bff;
+    --blue: #1e8bd6 !important;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -63,7 +63,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #007bff;
+    --primary: #1e8bd6 !important;
     --secondary: #6c757d;
     --success: #28a745;
     --info: #17a2b8;
@@ -90,7 +90,7 @@
     --popover-foreground: 0 0% 11%;
 
     /* Brand Blue */
-    --primary: 217 100% 50%;
+    --primary: 204 75% 48% !important;
     --primary-foreground: 0 0% 100%;
 
     /* Soft gray for secondary */
@@ -109,24 +109,24 @@
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 217 100% 50%;
+    --ring: 204 75% 48% !important;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
     --charcoal: 0 0% 11%;
-    --brand: 217 100% 50%;
+    --brand: 204 75% 48% !important;
     --success: 145 65% 51%;
     
     /* Gradients */
-    --gradient-brand: #249af3;
+    --gradient-brand: #1e8bd6 !important;
     --gradient-dark: linear-gradient(180deg, hsl(0, 0%, 11%) 0%, hsl(0, 0%, 6%) 100%);
     --gradient-hero: linear-gradient(180deg, transparent 0%, hsl(0, 0%, 11%) 100%);
     
     /* Shadows */
     --shadow-card: 0 4px 20px -4px rgba(0, 0, 0, 0.1);
     --shadow-elevated: 0 12px 40px -8px rgba(0, 0, 0, 0.15);
-    --shadow-brand: 0 8px 30px -4px rgba(0, 123, 255, 0.3);
+    --shadow-brand: 0 8px 30px -4px rgba(30, 139, 214, 0.3) !important;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -135,7 +135,7 @@
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 204 75% 48% !important;
   }
 
   .dark {
@@ -148,7 +148,7 @@
     --popover: 0 0% 11%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 217 100% 50%;
+    --primary: 204 75% 48% !important;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 16%;
@@ -165,16 +165,16 @@
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 217 100% 50%;
+    --ring: 204 75% 48% !important;
 
     --sidebar-background: 0 0% 11%;
     --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 217 100% 50%;
+    --sidebar-primary: 204 75% 48% !important;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 16%;
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 0 0% 20%;
-    --sidebar-ring: 217 100% 50%;
+    --sidebar-ring: 204 75% 48% !important;
   }
 }
 
@@ -339,7 +339,7 @@
 }
 
 .header_top a.header_btn.sign_up {
-  background: #249af3 !important;
+  background: #1e8bd6 !important;
 }
 
 .header_top a.header_btn.sign_up:hover {
@@ -348,7 +348,7 @@
 
 /* Vehicle Search Form Switches */
 .switch-copart[data-state="checked"] {
-  background-color: #007bff !important;
+  background-color: #1e8bd6 !important;
 }
 
 .switch-iaai[data-state="checked"] {
