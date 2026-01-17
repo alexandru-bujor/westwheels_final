@@ -18,6 +18,9 @@ interface VehicleBiddingProps {
   onBidAmountChange: (value: string) => void;
   onBidValueChange: (value: number) => void;
   onAdjustBid: (amount: number) => void;
+    lotPriceMin: number;
+    lotPriceMax: number;
+
 }
 
 const VehicleBidding = ({
@@ -27,6 +30,9 @@ const VehicleBidding = ({
   formatTimeLeft,
   onBidAmountChange,
   onBidValueChange,
+
+                            lotPriceMin,
+                            lotPriceMax,
   onAdjustBid,
 }: VehicleBiddingProps) => {
   return (
@@ -114,6 +120,11 @@ const VehicleBidding = ({
               Purchase process
             </Link>
           </p>
+            <div className="flex items-center gap-1">
+            <span className="font-semiboldbold">Estimated cost:</span>
+            <span className="font-semibold">
+                {formatPrice(lotPriceMin)} – {formatPrice(lotPriceMax)}
+              </span></div>
         </div>
       </div>
     </motion.div>

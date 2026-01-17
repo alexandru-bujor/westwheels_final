@@ -25,15 +25,13 @@ interface VehicleHeaderProps {
   auctionSource: string;
   shippingFrom: string;
   distance: string;
-  lotPriceMin: number;
-  lotPriceMax: number;
   viewsCount: number;
   deliveryStart: string;
   deliveryEnd: string;
   auctionDate: string;
   isFavorite: boolean;
   onFavoriteToggle: () => void;
-  formatPrice: (price: number) => string;
+    formatPrice: (price: number) => string;
 }
 
 export default function VehicleHeader({
@@ -44,8 +42,6 @@ export default function VehicleHeader({
   auctionSource,
   shippingFrom,
   distance,
-  lotPriceMin,
-  lotPriceMax,
   viewsCount,
   deliveryStart,
   deliveryEnd,
@@ -122,10 +118,7 @@ export default function VehicleHeader({
               <span className="text-muted-foreground">Distance:</span>
               <span>{distance}</span>
               <span className="text-muted-foreground">•</span>
-              <span className="text-muted-foreground">Estimated cost:</span>
-              <span className="font-semibold">
-                {formatPrice(lotPriceMin)} – {formatPrice(lotPriceMax)}
-              </span>
+
             </div>
           </div>
 

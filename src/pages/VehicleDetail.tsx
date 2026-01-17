@@ -236,8 +236,6 @@ const VehicleDetail = () => {
             auctionSource={auctionSource}
             shippingFrom={shippingFrom}
             distance={distance}
-            lotPriceMin={lotPriceMin}
-            lotPriceMax={lotPriceMax}
             viewsCount={viewsCount}
             deliveryStart={deliveryStart}
             deliveryEnd={deliveryEnd}
@@ -330,6 +328,8 @@ const VehicleDetail = () => {
                 onBidAmountChange={setBidAmount}
                 onBidValueChange={setBidValue}
                 onAdjustBid={adjustBid}
+                lotPriceMin={lotPriceMin}
+                lotPriceMax={lotPriceMax}
               />
 
               <VehiclePriceEstimator
