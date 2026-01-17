@@ -158,13 +158,13 @@ const CarCard = ({ car, index = 0 }: CarCardProps) => {
             </button>
 
             {/* Damage Badge */}
-            {/*<Badge
+            <Badge
               variant={getDamageVariant(car.damage) as any}
               className="absolute top-3 left-3"
             >
               {car.damage !== 'Clean Title' && <AlertTriangle className="h-3 w-3 mr-1" />}
               {car.damage}
-            </Badge>*/}
+            </Badge>
 
             {/* Timer */}
             <div className="absolute bottom-3 left-3 right-3">
