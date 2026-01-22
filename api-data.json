@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-21T14:48:56.517Z",
+  "timestamp": "2026-01-21T23:09:07.335Z",
   "summary": {
-    "total": 17,
-    "successful": 15,
+    "total": 18,
+    "successful": 16,
     "failed": 2
   },
   "results": {
@@ -72,13 +72,13 @@
             "slug": "acura",
             "name": "Acura",
             "name_ru": null,
-            "count": "6852"
+            "count": "6775"
           },
           {
             "slug": "alfa-romeo",
             "name": "Alfa romeo",
             "name_ru": null,
-            "count": "843"
+            "count": "839"
           },
           {
             "slug": "american-motors",
@@ -90,19 +90,19 @@
             "slug": "aro",
             "name": "Aro",
             "name_ru": null,
-            "count": "29"
+            "count": "32"
           },
           {
             "slug": "aston-martin",
             "name": "Aston martin",
             "name_ru": null,
-            "count": "51"
+            "count": "52"
           },
           {
             "slug": "audi",
             "name": "Audi",
             "name_ru": null,
-            "count": "11431"
+            "count": "11306"
           },
           {
             "slug": "austin",
@@ -114,25 +114,25 @@
             "slug": "bentley",
             "name": "Bentley",
             "name_ru": null,
-            "count": "143"
+            "count": "144"
           },
           {
             "slug": "bmw",
             "name": "BMW",
             "name_ru": null,
-            "count": "17167"
+            "count": "17120"
           },
           {
             "slug": "buick",
             "name": "Buick",
             "name_ru": null,
-            "count": "9702"
+            "count": "9607"
           },
           {
             "slug": "cadillac",
             "name": "Cadillac",
             "name_ru": null,
-            "count": "7403"
+            "count": "7351"
           },
           {
             "slug": "can-am",
@@ -144,25 +144,25 @@
             "slug": "chev",
             "name": "Chev",
             "name_ru": null,
-            "count": "13"
+            "count": "11"
           },
           {
             "slug": "chevrolet",
             "name": "Chevrolet",
             "name_ru": null,
-            "count": "80379"
+            "count": "79699"
           },
           {
             "slug": "chry",
             "name": "Chry",
             "name_ru": null,
-            "count": "6"
+            "count": "7"
           },
           {
             "slug": "chrysler",
             "name": "Chrysler",
             "name_ru": null,
-            "count": "10280"
+            "count": "10126"
           },
           {
             "slug": "dodg",
@@ -174,55 +174,55 @@
             "slug": "dodge",
             "name": "Dodge",
             "name_ru": null,
-            "count": "24000"
+            "count": "23847"
           },
           {
             "slug": "ferrari",
             "name": "Ferrari",
             "name_ru": null,
-            "count": "40"
+            "count": "41"
           },
           {
             "slug": "fiat",
             "name": "Fiat",
             "name_ru": null,
-            "count": "915"
+            "count": "924"
           },
           {
             "slug": "fisker",
             "name": "Fisker",
             "name_ru": null,
-            "count": "120"
+            "count": "121"
           },
           {
             "slug": "fisker-automotive",
             "name": "Fisker automotive",
             "name_ru": null,
-            "count": "8"
+            "count": "11"
           },
           {
             "slug": "ford",
             "name": "Ford",
             "name_ru": null,
-            "count": "84634"
+            "count": "83835"
           },
           {
             "slug": "genesis",
             "name": "Genesis",
             "name_ru": null,
-            "count": "1134"
+            "count": "1128"
           },
           {
             "slug": "gmc",
             "name": "Gmc",
             "name_ru": null,
-            "count": "18730"
+            "count": "18632"
           },
           {
             "slug": "harley-davidson",
             "name": "Harley-davidson",
             "name_ru": null,
-            "count": "38"
+            "count": "37"
           },
           {
             "slug": "hond",
@@ -234,25 +234,25 @@
             "slug": "honda",
             "name": "Honda",
             "name_ru": null,
-            "count": "64813"
+            "count": "64018"
           },
           {
             "slug": "hyundai",
             "name": "Hyundai",
             "name_ru": null,
-            "count": "48506"
+            "count": "47958"
           },
           {
             "slug": "infiniti",
             "name": "Infiniti",
             "name_ru": null,
-            "count": "7511"
+            "count": "7479"
           },
           {
             "slug": "international",
             "name": "International",
             "name_ru": null,
-            "count": "7"
+            "count": "9"
           },
           {
             "slug": "isuzu",
@@ -264,13 +264,13 @@
             "slug": "jaguar",
             "name": "Jaguar",
             "name_ru": null,
-            "count": "1173"
+            "count": "1139"
           },
           {
             "slug": "jeep",
             "name": "Jeep",
             "name_ru": null,
-            "count": "32173"
+            "count": "31841"
           },
           {
             "slug": "jep",
@@ -282,13 +282,13 @@
             "slug": "kawasaki",
             "name": "Kawasaki",
             "name_ru": null,
-            "count": "20"
+            "count": "19"
           },
           {
             "slug": "kia",
             "name": "Kia",
             "name_ru": null,
-            "count": "41776"
+            "count": "41394"
           },
           {
             "slug": "lamborghini",
@@ -300,25 +300,25 @@
             "slug": "land-rover",
             "name": "Land rover",
             "name_ru": null,
-            "count": "3923"
+            "count": "3911"
           },
           {
             "slug": "lexus",
             "name": "Lexus",
             "name_ru": null,
-            "count": "10332"
+            "count": "10233"
           },
           {
             "slug": "lincoln",
             "name": "Lincoln",
             "name_ru": null,
-            "count": "4441"
+            "count": "4392"
           },
           {
             "slug": "lotus",
             "name": "Lotus",
             "name_ru": null,
-            "count": "10"
+            "count": "8"
           },
           {
             "slug": "lucid",
@@ -330,67 +330,67 @@
             "slug": "lucid-motors",
             "name": "Lucid motors",
             "name_ru": null,
-            "count": "19"
+            "count": "21"
           },
           {
             "slug": "maserati",
             "name": "Maserati",
             "name_ru": null,
-            "count": "577"
+            "count": "568"
           },
           {
             "slug": "mazda",
             "name": "Mazda",
             "name_ru": null,
-            "count": "13886"
+            "count": "13670"
           },
           {
             "slug": "mclaren",
             "name": "Mclaren",
             "name_ru": null,
-            "count": "32"
+            "count": "28"
           },
           {
             "slug": "mclaren-automotive",
             "name": "Mclaren automotive",
             "name_ru": null,
-            "count": "20"
+            "count": "19"
           },
           {
             "slug": "mercedes-benz",
             "name": "Mercedes-benz",
             "name_ru": null,
-            "count": "16016"
+            "count": "15881"
           },
           {
             "slug": "mercury",
             "name": "Mercury",
             "name_ru": null,
-            "count": "11"
+            "count": "12"
           },
           {
             "slug": "mini",
             "name": "Mini",
             "name_ru": null,
-            "count": "1791"
+            "count": "1773"
           },
           {
             "slug": "mitsubishi",
             "name": "Mitsubishi",
             "name_ru": null,
-            "count": "6564"
+            "count": "6482"
           },
           {
             "slug": "niss",
             "name": "Niss",
             "name_ru": null,
-            "count": "13"
+            "count": "11"
           },
           {
             "slug": "nissan",
             "name": "Nissan",
             "name_ru": null,
-            "count": "68969"
+            "count": "68312"
           },
           {
             "slug": "polaris",
@@ -402,85 +402,103 @@
             "slug": "polestar",
             "name": "Polestar",
             "name_ru": null,
-            "count": "86"
+            "count": "90"
           },
           {
             "slug": "porsche",
             "name": "Porsche",
             "name_ru": null,
-            "count": "1861"
+            "count": "1849"
           },
           {
             "slug": "ram",
             "name": "Ram",
             "name_ru": null,
-            "count": "13876"
+            "count": "13734"
           },
           {
             "slug": "rivian",
             "name": "Rivian",
             "name_ru": null,
-            "count": "209"
+            "count": "206"
           },
           {
             "slug": "rolls-royce",
             "name": "Rolls-royce",
             "name_ru": null,
-            "count": "56"
+            "count": "55"
           },
           {
             "slug": "scion",
             "name": "Scion",
             "name_ru": null,
-            "count": "455"
+            "count": "446"
           },
           {
             "slug": "smart",
             "name": "Smart",
             "name_ru": null,
-            "count": "128"
+            "count": "127"
           },
           {
             "slug": "suba",
             "name": "Suba",
             "name_ru": null,
-            "count": "7"
+            "count": "6"
           },
           {
             "slug": "subaru",
             "name": "Subaru",
             "name_ru": null,
-            "count": "19623"
+            "count": "19496"
           },
           {
             "slug": "suzuki",
             "name": "Suzuki",
             "name_ru": null,
-            "count": "114"
+            "count": "109"
           },
           {
             "slug": "tesla",
             "name": "Tesla",
             "name_ru": null,
-            "count": "11521"
+            "count": "11499"
           },
           {
             "slug": "toyota",
             "name": "Toyota",
             "name_ru": null,
-            "count": "81389"
+            "count": "80662"
+          },
+          {
+            "slug": "toyt",
+            "name": "Toyt",
+            "name_ru": null,
+            "count": "6"
+          },
+          {
+            "slug": "vinfast-trading-and-produ",
+            "name": "Vinfast trading and produ",
+            "name_ru": null,
+            "count": "6"
           },
           {
             "slug": "volkswagen",
             "name": "Volkswagen",
             "name_ru": null,
-            "count": "18590"
+            "count": "18367"
+          },
+          {
+            "slug": "volv",
+            "name": "Volv",
+            "name_ru": null,
+            "count": "11"
           },
           {
             "slug": "volvo",
             "name": "Volvo",
             "name_ru": null,
-            "count": "3457"
+            "count": "3438"
           },
           {
             "slug": "yamaha",
@@ -2857,195 +2875,194 @@
         "limit": 9999
       }
     },
+    "detailedLots": {
+      "error": false
+    },
     "lotInfo": {
       "error": false,
-      "status": 200,
       "data": {
-        "data": {
-          "id": 57388036433652,
-          "number": "75262314",
-          "source_lot_id": "75262314",
-          "model_id": "870",
-          "vehicle_type": "v",
-          "vehicle_type_key": "1",
-          "sale_title_state": "FL",
-          "sale_title_state_id": "82",
-          "sale_title_type": "",
-          "sale_title_type_id": null,
-          "salvage_id": null,
-          "has_keys": "1",
-          "lot_cond_code": "",
-          "lot_cond_code_key": null,
-          "retail_value": "38792.00",
-          "repair_cost": "0.00",
-          "cylinders": "6",
-          "seller": "USAA",
-          "document": null,
-          "buy_it_now_price": null,
-          "price_future": null,
-          "trim": "0i",
-          "vin": "WBA5U7C03LFH66546",
-          "engine_volume": "3.0",
-          "engine_fuel": "flexible",
-          "drive": "rear",
-          "transmission": "auto",
-          "mileage": "53392",
-          "year": "2020",
-          "color": "Blue",
-          "color_id": "13",
-          "status": "used",
-          "damage_status": "run & drive verified",
-          "damage_status_key": "3",
-          "damage_main_damages": "WATER/FLOOD",
-          "damage_main_damages_key": "12",
-          "damage_secondary_damages": "UNKNOWN",
-          "damage_secondary_damages_key": "26",
-          "damage_notes": null,
-          "odometer_brand": "N",
-          "airbags": null,
-          "yard_number": "1",
-          "yard_name": "FL - Tampa South",
-          "iaai_360_view": null,
-          "engine_view": null,
-          "title": "2020 BMW M340I",
-          "copart_360_interior_view": null,
-          "copart_360_exterior_view": null,
-          "equipment": "Run & Drive",
-          "photo": [
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9882a3ef7e4a4a10a49605e492a85f08_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9882a3ef7e4a4a10a49605e492a85f08_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9882a3ef7e4a4a10a49605e492a85f08_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9882a3ef7e4a4a10a49605e492a85f08_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/37dcb495381e41efa1599e55aab3df00_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/37dcb495381e41efa1599e55aab3df00_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/37dcb495381e41efa1599e55aab3df00_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/37dcb495381e41efa1599e55aab3df00_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/714053bfeac44b8eb6d87d710a213aeb_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/714053bfeac44b8eb6d87d710a213aeb_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/714053bfeac44b8eb6d87d710a213aeb_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/714053bfeac44b8eb6d87d710a213aeb_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9d6d6db0a6e740f788b7c5e5168a01e3_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9d6d6db0a6e740f788b7c5e5168a01e3_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9d6d6db0a6e740f788b7c5e5168a01e3_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9d6d6db0a6e740f788b7c5e5168a01e3_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/d444cb0a9c2e48e5abcc4bebe15c128d_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/d444cb0a9c2e48e5abcc4bebe15c128d_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/d444cb0a9c2e48e5abcc4bebe15c128d_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/d444cb0a9c2e48e5abcc4bebe15c128d_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/02517197ef8f45fe96fddbafdc9a6153_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/02517197ef8f45fe96fddbafdc9a6153_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/02517197ef8f45fe96fddbafdc9a6153_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/02517197ef8f45fe96fddbafdc9a6153_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/a3c2bb45e21140da8051edd5082ff48f_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/a3c2bb45e21140da8051edd5082ff48f_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/a3c2bb45e21140da8051edd5082ff48f_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/a3c2bb45e21140da8051edd5082ff48f_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/8cca748f4f404ecc82d4e356e363c5e5_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/8cca748f4f404ecc82d4e356e363c5e5_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/8cca748f4f404ecc82d4e356e363c5e5_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/8cca748f4f404ecc82d4e356e363c5e5_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/ea515856c8c3447b986e9de98321d11f_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/ea515856c8c3447b986e9de98321d11f_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/ea515856c8c3447b986e9de98321d11f_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/ea515856c8c3447b986e9de98321d11f_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/f6af30b883794df3865decc89e7f190e_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/f6af30b883794df3865decc89e7f190e_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/f6af30b883794df3865decc89e7f190e_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/f6af30b883794df3865decc89e7f190e_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/43fdaa9fe62c417f87dccc9c74f720e5_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/43fdaa9fe62c417f87dccc9c74f720e5_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/43fdaa9fe62c417f87dccc9c74f720e5_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/43fdaa9fe62c417f87dccc9c74f720e5_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/06062f97f7634d2b861790e1a2418ea4_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/06062f97f7634d2b861790e1a2418ea4_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/06062f97f7634d2b861790e1a2418ea4_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/06062f97f7634d2b861790e1a2418ea4_ful.jpg"
-            },
-            {
-              "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/0a8971808ac64dcea537dc228d640b31_hrs.jpg",
-              "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/0a8971808ac64dcea537dc228d640b31_ful.jpg",
-              "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/0a8971808ac64dcea537dc228d640b31_thb.jpg",
-              "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/0a8971808ac64dcea537dc228d640b31_ful.jpg"
-            }
-          ],
-          "lot_bid_histories": null,
-          "state": "FL",
-          "city": "Tampa South",
-          "city_slug": "tampa_south",
-          "bid_country": "",
-          "source": "copart",
-          "buy_it_now": "0",
-          "final_bid": "0.00",
-          "views": "0",
-          "timezone": "UTC",
-          "is_new": "0",
-          "created_at": "2025-07-22T17:54:40.000000Z",
-          "updated_at": "2025-12-10T23:07:03.000000Z",
-          "sold_at": null,
-          "link": "",
-          "relative_link": "",
-          "clear_link": "/auction/lots/75262314-bmw-m3-2020-vin-wba5u7c03lfh66546",
-          "engine_fuel_rus": "Flexible",
-          "brand_name": "BMW",
-          "model_name": "M3",
-          "has_keys_readable": "yes",
-          "run_and_drive": "no",
-          "calc_price": 12801,
-          "sold_at_date": null,
-          "sold_at_time": null,
-          "timezone_rus": "UTC",
-          "seller_type": {
-            "id": 7,
-            "type_id": "1",
-            "name": "USAA",
-            "created_at": null,
-            "updated_at": null,
-            "type": "Insurance"
+        "id": 57388036433652,
+        "number": "75262314",
+        "source_lot_id": "75262314",
+        "model_id": "870",
+        "vehicle_type": "v",
+        "vehicle_type_key": "1",
+        "sale_title_state": "FL",
+        "sale_title_state_id": "82",
+        "sale_title_type": "",
+        "sale_title_type_id": null,
+        "salvage_id": null,
+        "has_keys": "1",
+        "lot_cond_code": "",
+        "lot_cond_code_key": null,
+        "retail_value": "38792.00",
+        "repair_cost": "0.00",
+        "cylinders": "6",
+        "seller": "USAA",
+        "document": null,
+        "buy_it_now_price": null,
+        "price_future": null,
+        "trim": "0i",
+        "vin": "WBA5U7C03LFH66546",
+        "engine_volume": "3.0",
+        "engine_fuel": "flexible",
+        "drive": "rear",
+        "transmission": "auto",
+        "mileage": "53392",
+        "year": "2020",
+        "color": "Blue",
+        "color_id": "13",
+        "status": "used",
+        "damage_status": "run & drive verified",
+        "damage_status_key": "3",
+        "damage_main_damages": "WATER/FLOOD",
+        "damage_main_damages_key": "12",
+        "damage_secondary_damages": "UNKNOWN",
+        "damage_secondary_damages_key": "26",
+        "damage_notes": null,
+        "odometer_brand": "N",
+        "airbags": null,
+        "yard_number": "1",
+        "yard_name": "FL - Tampa South",
+        "iaai_360_view": null,
+        "engine_view": null,
+        "title": "2020 BMW M340I",
+        "copart_360_interior_view": null,
+        "copart_360_exterior_view": null,
+        "equipment": "Run & Drive",
+        "photo": [
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9882a3ef7e4a4a10a49605e492a85f08_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9882a3ef7e4a4a10a49605e492a85f08_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9882a3ef7e4a4a10a49605e492a85f08_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9882a3ef7e4a4a10a49605e492a85f08_ful.jpg"
           },
-          "model": {
-            "id": 870,
-            "clean_model_id": "141",
-            "brand_id": "1",
-            "slug": "m3",
-            "name": "M3",
-            "created_at": "2019-06-24T04:32:30.000000Z",
-            "updated_at": "2019-07-02T19:50:07.000000Z",
-            "brand": {
-              "id": 1,
-              "slug": "bmw",
-              "name": "BMW",
-              "popular": "1",
-              "count": "4095",
-              "created_at": "2019-06-24T04:31:58.000000Z",
-              "updated_at": "2022-09-28T07:05:41.000000Z",
-              "markabrand_ru": "Бмв"
-            }
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/37dcb495381e41efa1599e55aab3df00_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/37dcb495381e41efa1599e55aab3df00_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/37dcb495381e41efa1599e55aab3df00_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/37dcb495381e41efa1599e55aab3df00_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/714053bfeac44b8eb6d87d710a213aeb_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/714053bfeac44b8eb6d87d710a213aeb_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/714053bfeac44b8eb6d87d710a213aeb_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/714053bfeac44b8eb6d87d710a213aeb_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9d6d6db0a6e740f788b7c5e5168a01e3_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9d6d6db0a6e740f788b7c5e5168a01e3_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9d6d6db0a6e740f788b7c5e5168a01e3_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/9d6d6db0a6e740f788b7c5e5168a01e3_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/d444cb0a9c2e48e5abcc4bebe15c128d_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/d444cb0a9c2e48e5abcc4bebe15c128d_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/d444cb0a9c2e48e5abcc4bebe15c128d_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/d444cb0a9c2e48e5abcc4bebe15c128d_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/02517197ef8f45fe96fddbafdc9a6153_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/02517197ef8f45fe96fddbafdc9a6153_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/02517197ef8f45fe96fddbafdc9a6153_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/02517197ef8f45fe96fddbafdc9a6153_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/a3c2bb45e21140da8051edd5082ff48f_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/a3c2bb45e21140da8051edd5082ff48f_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/a3c2bb45e21140da8051edd5082ff48f_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/a3c2bb45e21140da8051edd5082ff48f_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/8cca748f4f404ecc82d4e356e363c5e5_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/8cca748f4f404ecc82d4e356e363c5e5_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/8cca748f4f404ecc82d4e356e363c5e5_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/8cca748f4f404ecc82d4e356e363c5e5_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/ea515856c8c3447b986e9de98321d11f_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/ea515856c8c3447b986e9de98321d11f_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/ea515856c8c3447b986e9de98321d11f_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/ea515856c8c3447b986e9de98321d11f_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/f6af30b883794df3865decc89e7f190e_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/f6af30b883794df3865decc89e7f190e_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/f6af30b883794df3865decc89e7f190e_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/f6af30b883794df3865decc89e7f190e_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/43fdaa9fe62c417f87dccc9c74f720e5_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/43fdaa9fe62c417f87dccc9c74f720e5_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/43fdaa9fe62c417f87dccc9c74f720e5_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/43fdaa9fe62c417f87dccc9c74f720e5_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/06062f97f7634d2b861790e1a2418ea4_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/06062f97f7634d2b861790e1a2418ea4_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/06062f97f7634d2b861790e1a2418ea4_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/06062f97f7634d2b861790e1a2418ea4_ful.jpg"
+          },
+          {
+            "url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/0a8971808ac64dcea537dc228d640b31_hrs.jpg",
+            "thumb_url": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/0a8971808ac64dcea537dc228d640b31_ful.jpg",
+            "thumb_url_min": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/0a8971808ac64dcea537dc228d640b31_thb.jpg",
+            "thumb_url_middle": "https://cs.copart.com/v1/AUTH_svc.pdoc00001/ids-c-prod-lpp/1024/0a8971808ac64dcea537dc228d640b31_ful.jpg"
           }
+        ],
+        "lot_bid_histories": null,
+        "state": "FL",
+        "city": "Tampa South",
+        "city_slug": "tampa_south",
+        "bid_country": "",
+        "source": "copart",
+        "buy_it_now": "0",
+        "final_bid": "0.00",
+        "views": "0",
+        "timezone": "UTC",
+        "is_new": "0",
+        "created_at": "2025-07-22T17:54:40.000000Z",
+        "updated_at": "2025-12-10T23:07:03.000000Z",
+        "sold_at": null,
+        "link": "",
+        "relative_link": "",
+        "clear_link": "/auction/lots/75262314-bmw-m3-2020-vin-wba5u7c03lfh66546",
+        "engine_fuel_rus": "Flexible",
+        "brand_name": "BMW",
+        "model_name": "M3",
+        "has_keys_readable": "yes",
+        "run_and_drive": "no",
+        "calc_price": 12801,
+        "sold_at_date": null,
+        "sold_at_time": null,
+        "timezone_rus": "UTC",
+        "seller_type": {
+          "id": 7,
+          "type_id": "1",
+          "name": "USAA",
+          "created_at": null,
+          "updated_at": null,
+          "type": "Insurance"
         },
-        "limit": 9999
+        "model": {
+          "id": 870,
+          "clean_model_id": "141",
+          "brand_id": "1",
+          "slug": "m3",
+          "name": "M3",
+          "created_at": "2019-06-24T04:32:30.000000Z",
+          "updated_at": "2019-07-02T19:50:07.000000Z",
+          "brand": {
+            "id": 1,
+            "slug": "bmw",
+            "name": "BMW",
+            "popular": "1",
+            "count": "4095",
+            "created_at": "2019-06-24T04:31:58.000000Z",
+            "updated_at": "2022-09-28T07:05:41.000000Z",
+            "markabrand_ru": "Бмв"
+          }
+        }
       }
     },
     "vinHistory": {
@@ -3060,7 +3077,7 @@
         "data": [
           {
             "auction": "copart",
-            "count": "7500848"
+            "count": "7490503"
           },
           {
             "auction": "manheim",
@@ -3068,7 +3085,7 @@
           },
           {
             "auction": "iaai",
-            "count": "4248174"
+            "count": "4245253"
           }
         ],
         "limit": 9999
@@ -3154,67 +3171,67 @@
           {
             "name": "Station Wagon",
             "slug": "station_wagon",
-            "count": "20116"
+            "count": "19897"
           },
           {
             "name": "SUV",
             "slug": "suv",
-            "count": "311249"
+            "count": "308371"
           },
           {
             "name": "Sedan",
             "slug": "sedan",
-            "count": "281360"
+            "count": "278339"
           },
           {
             "name": "Minivan",
             "slug": "minivan",
-            "count": "14970"
+            "count": "14838"
           },
           {
             "name": "Pickup Trucks",
             "slug": "pickup_trucks",
-            "count": "57988"
+            "count": "57634"
           },
           {
             "name": "Vans",
             "slug": "vans",
-            "count": "11839"
+            "count": "11868"
           },
           {
             "name": "Sport Cars",
             "slug": "sport_cars",
-            "count": "1740"
+            "count": "1734"
           },
           {
             "name": "Muscle cars",
             "slug": "muscle_cars",
-            "count": "16847"
+            "count": "16760"
           },
           {
             "name": "Mini Bus",
             "slug": "mini_bus",
-            "count": "13432"
+            "count": "13435"
           },
           {
             "name": "Electric Car",
             "slug": "electric_car",
-            "count": "18485"
+            "count": "18435"
           },
           {
             "name": "Hatchbacks",
             "slug": "hatchbacks",
-            "count": "109339"
+            "count": "107959"
           },
           {
             "name": "Coupes",
             "slug": "coupes",
-            "count": "7297"
+            "count": "7227"
           },
           {
             "name": "Convertible",
             "slug": "convertible",
-            "count": "2690"
+            "count": "2650"
           }
         ],
         "limit": 9999
