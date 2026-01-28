@@ -1,0 +1,129 @@
+{
+  "totalChunks": 20,
+  "totalLots": 5000,
+  "lotsPerChunk": 250,
+  "createdAt": "2026-01-28T19:04:16.125Z",
+  "originalFileSize": 144433170,
+  "chunks": [
+    {
+      "index": 0,
+      "fileName": "chunk-00.json",
+      "size": 3515529,
+      "lotsCount": 250
+    },
+    {
+      "index": 1,
+      "fileName": "chunk-01.json",
+      "size": 3830706,
+      "lotsCount": 250
+    },
+    {
+      "index": 2,
+      "fileName": "chunk-02.json",
+      "size": 3906032,
+      "lotsCount": 250
+    },
+    {
+      "index": 3,
+      "fileName": "chunk-03.json",
+      "size": 3719776,
+      "lotsCount": 250
+    },
+    {
+      "index": 4,
+      "fileName": "chunk-04.json",
+      "size": 3826310,
+      "lotsCount": 250
+    },
+    {
+      "index": 5,
+      "fileName": "chunk-05.json",
+      "size": 3723976,
+      "lotsCount": 250
+    },
+    {
+      "index": 6,
+      "fileName": "chunk-06.json",
+      "size": 3619352,
+      "lotsCount": 250
+    },
+    {
+      "index": 7,
+      "fileName": "chunk-07.json",
+      "size": 3750221,
+      "lotsCount": 250
+    },
+    {
+      "index": 8,
+      "fileName": "chunk-08.json",
+      "size": 3906358,
+      "lotsCount": 250
+    },
+    {
+      "index": 9,
+      "fileName": "chunk-09.json",
+      "size": 3931305,
+      "lotsCount": 250
+    },
+    {
+      "index": 10,
+      "fileName": "chunk-10.json",
+      "size": 3898884,
+      "lotsCount": 250
+    },
+    {
+      "index": 11,
+      "fileName": "chunk-11.json",
+      "size": 3923179,
+      "lotsCount": 250
+    },
+    {
+      "index": 12,
+      "fileName": "chunk-12.json",
+      "size": 4075928,
+      "lotsCount": 250
+    },
+    {
+      "index": 13,
+      "fileName": "chunk-13.json",
+      "size": 3777349,
+      "lotsCount": 250
+    },
+    {
+      "index": 14,
+      "fileName": "chunk-14.json",
+      "size": 3793236,
+      "lotsCount": 250
+    },
+    {
+      "index": 15,
+      "fileName": "chunk-15.json",
+      "size": 3900485,
+      "lotsCount": 250
+    },
+    {
+      "index": 16,
+      "fileName": "chunk-16.json",
+      "size": 3726617,
+      "lotsCount": 250
+    },
+    {
+      "index": 17,
+      "fileName": "chunk-17.json",
+      "size": 3829728,
+      "lotsCount": 250
+    },
+    {
+      "index": 18,
+      "fileName": "chunk-18.json",
+      "size": 3886582,
+      "lotsCount": 250
+    },
+    {
+      "index": 19,
+      "fileName": "chunk-19.json",
+      "size": 3876196,
+      "lotsCount": 250
+    }
+  ]
+}
